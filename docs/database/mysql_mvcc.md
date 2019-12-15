@@ -58,6 +58,10 @@ ReadView包含当前系统中还有哪些活跃的读写事务，把它们的事
 
 Read Committed和Repeatable Read生成ReadWiew时间不同，Read Committed是在每次读取数据前都生成一个ReadView，而Repeatable Read是在事务第一次读取数据时生成一个ReadView。
 
+判断记录的某个版本快照数据能否被当前事物访问方式：若trx_id的值大于m_ids列表或在m_ids列表中，则表示该版本快照数据不能被当前事务访问，否则可被访问。
+
+<img src="./image/Innodb_mvcc_trx_id_mIds.jpg" style="zoom:50%;" />
+
 
 
 #### 为什么使用MVCC
