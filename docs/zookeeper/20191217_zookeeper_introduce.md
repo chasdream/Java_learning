@@ -26,3 +26,12 @@ zk主要应用场景有命名服务、分布式锁、分布式协调、元数据
 ##### 4.zookeeper集群
 
 zk集群是基于主从复制，包含leader、follower、observer三个角色。
+
+- leader：用于发起和维护与follower、observer之间的心跳；写操作必须有leader来进行处理，再由leader广播给其他server；
+- follower：用于直接处理client的读操作并返回结果；将client发起的写操作转发给leader处理，参与leader选举的投票；
+- observer：功能类似于follower，但没有投票权；目的是保证系统的可伸缩性且不影响吞吐率；
+
+
+
+zk集群主从架构是基于ZAB协议来保证各个server之间副本数据的一致性，从而保证了写操作的一致性和可用性。[ZAB协议](./20191218_zookeeper_zab_protocol.md)
+
