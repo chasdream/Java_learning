@@ -12,7 +12,7 @@
 
 #### [2.什么是ZAB协议？](./docs/middleware/zookeeper/20191218_zookeeper_zab_protocol.md)
 
-#### [3.zookeeper选举流程，投票选举leader为什么需要超过半数？zkserver机器部署成奇数台(2n+1)?](./docs/middleware/zookeeper/20191218_zookeeper_vote.md)
+#### [3.zookeeper选举流程，投票选举leader为什么需要超过半数？zkserver机器部署成奇数台(2n+1)?](./docs/middleware/zookeeper/20191218_zookeeper_zab_vote.md)
 
 ## 框架篇
 
