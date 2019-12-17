@@ -13,7 +13,7 @@
 
 
 ## [数据库篇](./docs/database/mysql_list.md)
-
+#### [1. mysql锁机制MVCC原理](./docs/database/mysql_mvcc.md)
 
 
 ## 运维篇(nginx/linux/tomcat/docker/jenkins)
