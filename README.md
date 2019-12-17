@@ -12,7 +12,7 @@
 
 
 
-## [数据库篇](./docs/database/mysql_list.md)
+## 数据库篇
 #### [1. mysql锁机制MVCC原理](./docs/database/mysql_mvcc.md)
 
 
