@@ -1,4 +1,4 @@
-## 什么是zookeeper？zookeeper节点(znode)有几种类型？zookeeper应用场景有哪些？zookeeper集群架构。
+## 什么是zookeeper？zookeeper节点(znode)有几种类型？zookeeper集群架构。
 
 #### 1.什么是zookeeper？
 
