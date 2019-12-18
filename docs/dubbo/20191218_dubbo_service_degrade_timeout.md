@@ -20,13 +20,12 @@ dubbo通过consumer配置mock的方式进行服务降级。mock配置有两种�
   
   在com.test.service.TestService接口相同路径下定义一个TestServiceMock类并实现TestService接口，然后进行降级逻辑处理。
   
-  ```
-  mock调用过程：
-  查看参数mock的值，如果未配置或false，则直接调用invoker。
-  如mock已force开头，则强制走mock。否则先调用provider服务，调用失败或超时则走Mock。
-  调用mock是没有发现mock服务，new一个MockInvoker，调用MockInvoker的服务。
-  ```
+  `mock调用过程：`
+  `查看参数mock的值，如果未配置或false，则直接调用invoker。`
+  `如mock已force开头，则强制走mock。否则先调用provider服务，调用失败或超时则走Mock。`
+  `调用mock是没有发现mock服务，new一个MockInvoker，调用MockInvoker的服务。`
   
+  end
 
 
 
