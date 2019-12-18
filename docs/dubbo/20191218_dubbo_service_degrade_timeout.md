@@ -20,6 +20,7 @@ dubbo通过consumer配置mock的方式进行服务降级。mock配置有两种�
   
   在com.test.service.TestService接口相同路径下定义一个TestServiceMock类并实现TestService接口，然后进行降级逻辑处理。
   
+  
 
 mock调用过程：
 
