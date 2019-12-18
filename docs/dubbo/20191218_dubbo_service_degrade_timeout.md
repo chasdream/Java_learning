@@ -27,7 +27,8 @@ dubbo通过consumer配置mock的方式进行服务降级。mock配置有两种�
   调用mock是没有发现mock服务，new一个MockInvoker，调用MockInvoker的服务。
   ```
   
-  
+
+
 
 #### 超时重试或失败重试
 
