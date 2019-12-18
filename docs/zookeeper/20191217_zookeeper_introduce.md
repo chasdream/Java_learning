@@ -4,7 +4,7 @@
 
 zookeeper类似于文件系统的数据结构，为解决分布式集群中应用系统的一致性问题，主要用于统一命名服务、配置管理、集群管理、分布式应用配置项等。zookeeper相当于一个文件系统+监听通知机制。
 
-<img src="/Users/idea/workspace/Java_learning/docs/zookeeper/image/zookeeper_sotrage_structure.jpg" style="zoom: 33%;" />
+<img src="./image/zookeeper_sotrage_structure.jpg" style="zoom: 33%;" />
 
 - 每个子目录被称为一个节点(znode)，如：上图中NameService就是一个目录节点。znode是它所在路径的唯一标识；
 - znode可以自由增加、删除，也可以在znode下增加或删除子znode。znode是用于存储数据的；
@@ -35,7 +35,7 @@ zk集群是基于主从复制，包含leader、follower、observer三个角色�
 - follower：用于直接处理client的读操作并返回结果；将client发起的写操作转发给leader处理，参与leader选举的投票；
 - observer：功能类似于follower，但没有投票权；目的是保证系统的可伸缩性且不影响吞吐率；
 
-<img src="/Users/idea/workspace/Java_learning/docs/zookeeper/image/zookeeper_cluster.jpg" style="zoom:50%;" />
+<img src="./image/zookeeper_cluster.jpg" style="zoom:50%;" />
 
 leader、follower、observer三个角色都可以处理客户端的读请求并返回结果，但follower和observer接收到客户端的写请求时只能转发给leader进行处理，然后有leader进行广播发送个follower和observer。
 
