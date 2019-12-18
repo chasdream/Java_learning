@@ -26,7 +26,7 @@ mock调用过程：
 
 - 查看参数mock的值，如果未配置或false，则直接调用invoker；
 - 如mock已force开头，则强制走mock；否则先调用provider服务，调用失败或超时则走Mock；
-- 调用mock是没有发现mock服务，new一个MockInvoker，调用MockInvoker的服务。
+- 调用mock没有发现mock服务，new一个MockInvoker，调用MockInvoker的服务。
 
 
 
