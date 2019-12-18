@@ -15,12 +15,12 @@ dubbo通过consumer配置mock的方式进行服务降级。mock配置有两种�
 - 第二种mock的值配置成boolean值，默认情况下是false。当配置为true时，则使用mock类名，结构：类名+mock后缀形式，当接口调用失败会调用mock实现，mock实现需要保证有无参构造方法。
 
   ```xml
-<dubbo:reference id="testService" interface="com.test.service.TestService" timeout="3000" check="false" mock="true"/>
+<dubbo:reference id="testService" interface="com.test.service.TestService" timeout="3000"  check="false" mock="true"/>
   ```
   
   在com.test.service.TestService接口相同路径下定义一个TestServiceMock类并实现TestService接口，然后进行降级逻辑处理。
-  
-  
+
+
 
 mock调用过程：
 
