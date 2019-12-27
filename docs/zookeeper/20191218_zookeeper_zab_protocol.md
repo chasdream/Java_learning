@@ -34,7 +34,7 @@ ZAB协议分为三个阶段：选举--->恢复--->广播
 
 2.通过follower和observer进行写操作流程
 
-<img src="/Users/idea/workspace/Java_learning/docs/zookeeper/image/zookeeper_zab_read_operator.jpg" style="zoom:50%;" />
+<img src="./image/zookeeper_zab_read_operator.jpg" style="zoom:50%;" />
 
 follower和observer可以接收客户端的写请求，但是需要转发给leader进行写处理。follower和observer操作步骤相似，只是多了一步转发leader的步骤。
 
