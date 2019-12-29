@@ -4,9 +4,9 @@ zookeeper核心实现是原子广播协议，即ZAB协议。zookeeper集群主�
 
 ZAB协议的设计目标是建立一个高可用、可扩展分布式数据主备系统。在任意时刻leader宕机也能够保证分布式系统数据的可靠性和最终一致性。
 
-ZAB协议主要包括恢复模式和广播模式两种模式，当服务启动或leader崩溃之后，ZAB协议就进入恢复模式。leader被选举出来且大多数follower与leader状态同步之后，恢复模式结束。状态同步保证了leader和follower具有相同的系统状态。
+ZAB协议主要包括*恢复模式*和*广播模式*两种模式，当服务启动或leader崩溃之后，ZAB协议就进入恢复模式。leader被选举出来且大多数follower与leader状态同步之后，恢复模式结束。状态同步保证了leader和follower具有相同的系统状态。
 
-ZAB协议分为三个阶段：选举--->恢复--->广播
+ZAB协议在Java中实现分为三个阶段：选举--->恢复--->广播
 
 - 选举：从所有server中选出一个leader，只要有一个server通过选举机制获得超过半数的投票票数就会当选为leader；
 - 恢复：followers和leader进行进行状态同步，当大多数节点同步完成，恢复模式结束；

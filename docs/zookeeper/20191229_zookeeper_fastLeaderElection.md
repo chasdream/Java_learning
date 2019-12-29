@@ -1,0 +1,1 @@
+## fastLeaderElection选举算法实现原理

@@ -114,6 +114,8 @@
 
 - #### [zookeeper选举流程，投票选举leader为什么需要超过半数？zkserver机器部署成奇数台(2n+1)?](./docs/zookeeper/20191218_zookeeper_zab_vote.md)
 
+- #### [fastLeaderElection选举算法实现原理](./docs/zookeeper/20191229_zookeeper_fastLeaderElection.md)
+
 - #### [zookeeper如何保证一致性？]()
 
 
