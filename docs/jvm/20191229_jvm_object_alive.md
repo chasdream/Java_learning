@@ -22,9 +22,9 @@
 
   优点：可以解决引用计数法中对象相互循环引用的问题。例如：对象A和对象B之间相互引用，但对象A和对象B都无法通过引用链到达GC Roots，则表示对象A和对象B可以进行内存回收。
 
-  可达性分析算法是Java中判断对象是否存活所使用的算法。
+  可达性分析算法是Java中判断对象是否存活所使用的算法。如下图中Object5和Object6和GC Roots之间没有引用链，则判定这两个对象是可被回收的。
 
-  <img src="./image/20191229_zookeeper_gc_roots.png"  />
+  <img src="./image/20191229_zookeeper_gc_roots.png"/>
 
 
 
