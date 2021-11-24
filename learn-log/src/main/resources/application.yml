@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        # 打开所有端点
+        include: "*"
+  endpoint:
+    # 访问方式：/actuator/health
+    health:
+      enabled: true
+      show-details: always
+    # 访问方式：/actuator/metrics
+#    metrics:
+#      enabled: true

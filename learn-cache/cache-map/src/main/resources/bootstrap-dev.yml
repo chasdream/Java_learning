@@ -1,0 +1,1 @@
+# springboot 单独不支持bootstrap.yml，因此需要bootstrap.yml文件生效需要依赖spring-cloud-context组件包
