@@ -13,14 +13,22 @@ import java.util.List;
 
 /**
  * <p>
+ *  Mybatis快速使用：https://mybatis.org/mybatis-3/zh/getting-started.html
  *
+ *  1. pom.xml引入mybatis的jar包；
+ *          <dependency>
+ *             <groupId>org.mybatis</groupId>
+ *             <artifactId>mybatis</artifactId>
+ *             <version>3.5.4</version>
+ *          </dependency>
+ *  2. 利用xml文件构建mybatis配置，{@link /resources/mybatis-config.xml}
  * </p>
  *
  * @author harber
  * @version 1.0.0
  * @since 2021/8/8
  */
-public class MybatisTest {
+public class MybatisXmlTest {
 
     public static void main(String[] args) throws IOException {
 
