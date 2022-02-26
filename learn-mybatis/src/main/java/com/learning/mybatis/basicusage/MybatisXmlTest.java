@@ -2,6 +2,7 @@ package com.learning.mybatis.basicusage;
 
 import com.learning.mybatis.basicusage.entity.TEntity;
 import com.learning.mybatis.basicusage.mapper.UserMapper;
+import com.learning.mybatis.plugin.PageInfo;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -48,7 +49,7 @@ public class MybatisXmlTest {
 
         // ----- 第三阶段：数据处理阶段
         // 第五步：调用Mapper接口对象的方法操作数据库
-        List<TEntity> tBeans = userMapper.selectById(1);
+        List<TEntity> tBeans = userMapper.selectById(1, new PageInfo());
 
         // 第六步：业务逻辑处理
         System.out.println(tBeans);

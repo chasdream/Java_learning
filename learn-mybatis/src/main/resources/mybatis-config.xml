@@ -17,6 +17,13 @@
         <package name="com.learning.mybatis.basicusage.entity"/>
     </typeAliases>
 
+    <!--配置自定义插件-->
+    <plugins>
+        <plugin interceptor="com.learning.mybatis.plugin.MyPagePlugin">
+            <property name="type" value="mysql"/>
+        </plugin>
+    </plugins>
+
     <!-- 环境变量配置-->
     <environments default="development">
         <environment id="development">
