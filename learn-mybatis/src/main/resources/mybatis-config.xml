@@ -17,9 +17,14 @@
         <package name="com.learning.mybatis.basicusage.entity"/>
     </typeAliases>
 
+    <!-- 配置自定义处理器-->
+    <typeHandlers>
+        <typeHandler handler="com.learning.mybatis.typehandler.CustomTypeHandler"/>
+    </typeHandlers>
+
     <!--配置自定义插件-->
     <plugins>
-        <plugin interceptor="com.learning.mybatis.plugin.MyPagePlugin">
+        <plugin interceptor="com.learning.mybatis.plugin.page.MyPagePlugin">
             <property name="type" value="mysql"/>
         </plugin>
     </plugins>

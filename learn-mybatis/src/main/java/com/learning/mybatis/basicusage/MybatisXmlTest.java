@@ -2,7 +2,7 @@ package com.learning.mybatis.basicusage;
 
 import com.learning.mybatis.basicusage.entity.TEntity;
 import com.learning.mybatis.basicusage.mapper.UserMapper;
-import com.learning.mybatis.plugin.PageInfo;
+import com.learning.mybatis.plugin.page.PageInfo;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

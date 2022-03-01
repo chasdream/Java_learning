@@ -1,7 +1,7 @@
 package com.learning.mybatis.basicusage.mapper;
 
 import com.learning.mybatis.basicusage.entity.TEntity;
-import com.learning.mybatis.plugin.PageInfo;
+import com.learning.mybatis.plugin.page.PageInfo;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper
-  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.learning.mybatis.basicusage.mapper.UserMapper">
-    <select id="selectById" resultType="TEntity">
+
+    <!-- 开启mybatis二级缓存-->
+    <cache eviction="LRU" flushInterval="10000" readOnly="true" size="1024"/>
+
+    <resultMap id="resultMap" type="com.learning.mybatis.basicusage.entity.TEntity">
+        <id column="id" property="id"/>
+        <!-- 指定字段使用自定义类型处理器，对select生效-->
+        <result column="c" property="c" typeHandler="com.learning.mybatis.typehandler.CustomTypeHandler"/>
+    </resultMap>
+
+    <!-- 如果是insert/update等进行生效，如下方法-->
+    <update id="update" parameterType="TEntity">
+        update T c = #{c, typeHandler=com.learning.mybatis.typehandler.CustomTypeHandler} where id = #{id}
+    </update>
+
+    <select id="selectById" resultType="TEntity" useCache="false">
         select id, c from T where id = #{id}
     </select>
 </mapper>
+
+

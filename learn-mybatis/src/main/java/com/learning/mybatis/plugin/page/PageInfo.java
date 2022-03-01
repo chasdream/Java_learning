@@ -1,4 +1,4 @@
-package com.learning.mybatis.plugin;
+package com.learning.mybatis.plugin.page;
 
 import java.io.Serializable;
 
