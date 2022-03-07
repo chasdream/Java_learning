@@ -1,0 +1,3 @@
+# 自动装配，指向自定义的自动装配类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.learning.spring.boot.autoconfigure.CustomAutoConfigure

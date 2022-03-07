@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+custom:
+  file:
+    file-name: test.xml
+    file-size: 10
