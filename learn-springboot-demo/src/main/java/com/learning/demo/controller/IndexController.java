@@ -1,4 +1,4 @@
-package com.learning.log.controller;
+package com.learning.demo.controller;
 
 import com.learning.spring.boot.autoconfigure.CustomBean;
 import org.springframework.stereotype.Controller;
