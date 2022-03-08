@@ -5,7 +5,7 @@ import org.apache.catalina.startup.Tomcat;
 
 /**
  * <p>
- *
+ *  模拟springBoot中的SpringApplication.run()封装tomcat
  * </p>
  *
  * @author harber
@@ -18,11 +18,12 @@ public class LearnApplication {
         // 1.整合springmvc
         // 2.内置了tomcat
         // 3.去除了xml
-        // web.xml两个类：ContextListener、DispatcherServlet
+        // web.xml两个类：ContextLoaderListener、DispatcherServlet
         try {
             Tomcat tomcat = new Tomcat();
-            tomcat.setPort(8090);
-            tomcat.addWebapp("/boot1", "/Users/idea/workspace/java-learn/learn-springboot"); // 增加项目路径
+            tomcat.setPort(8091);
+            // 将项目加载到tomcat容器中, /boot1 相当于server.servlet.context-path=/boot1
+            tomcat.addWebapp("/boot1", "/Users/idea/workspace/Java_learning/learn-springboot");
             tomcat.start();
             tomcat.getServer().await();
         } catch (LifecycleException e) {

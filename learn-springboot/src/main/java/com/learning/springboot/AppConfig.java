@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * <p>
- *
+ *  webMVC配置相关
  * </p>
  *
  * @author harber
@@ -19,7 +19,7 @@ import java.util.List;
  * @since 2021/8/12
  */
 @Configuration
-@ComponentScan("com.learning.springboot")// 扫描com.learning包,去掉一部分bean xml定义
+@ComponentScan("com.learning")// 扫描com.learning包,去掉一部分bean xml定义
 @EnableWebMvc
 public class AppConfig implements WebMvcConfigurer {
     /**
