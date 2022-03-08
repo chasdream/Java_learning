@@ -1,7 +1,17 @@
 server:
   port: 8080
 
+
 custom:
   file:
     file-name: test.xml
     file-size: 10
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      enabled: true
+      show-details: always

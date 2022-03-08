@@ -49,7 +49,7 @@ public class ConsumerTest {
         });
 
         while (true) {
-            ConsumerRecords<String, Object> poll = consumer.poll(Duration.ofMillis(100));
+            ConsumerRecords<String, Object> poll = consumer.poll(Duration.ofMillis(100).getSeconds());
             for (ConsumerRecord<String, Object> record : poll.records("test-topic")) {
                 System.err.println("record.key: " + record.key()
                         + "; record.value: " + JSON.toJSONString(record.value())

@@ -18,6 +18,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.leanring</groupId>
             <artifactId>learn-spring-boot-starter</artifactId>
             <version>1.0.0-SNAPSHOT</version>
