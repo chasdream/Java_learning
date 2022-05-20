@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T12:23:19.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="psqG3DzQnZ8hije5xbpN" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T12:25:36.670Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="5hy1PYkOaQNwumuKVTAE" version="18.0.4" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="1773" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,8 +84,20 @@
         <mxCell id="eb47AWL1J-Tu2v5P8dba-24" value="Configuration.addMapper()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-190" y="480" width="290" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-30" target="eb47AWL1J-Tu2v5P8dba-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-30" value="MapperAnnotationBuilder.parse()&lt;br&gt;根据type找到mapper.xml文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-190" y="790" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-32" target="eb47AWL1J-Tu2v5P8dba-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-32" value="MapperAnnotationBuilder#loadXmlResource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-92.5" y="870" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="920" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
