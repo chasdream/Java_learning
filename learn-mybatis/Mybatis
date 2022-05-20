@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T12:27:48.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="wWj43c-c15_eRqdbwCCp" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T12:30:01.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Z41z-I-1wUS8InbXE9Q5" version="18.0.4" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
-    <mxGraphModel dx="1773" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2691" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-14" value="注册MapperRegister" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="585" width="290" height="60" as="geometry" />
+          <mxGeometry x="-190" y="575" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-18" value="生成MapperProxyFactory代理工厂对象&lt;br&gt;knownMappers.put(type, new MapperProxyFactory&amp;lt;&amp;gt;(type))" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="690" width="290" height="60" as="geometry" />
+          <mxGeometry x="-190" y="668" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-20" target="eb47AWL1J-Tu2v5P8dba-24">
           <mxGeometry relative="1" as="geometry" />
@@ -84,25 +84,20 @@
         <mxCell id="eb47AWL1J-Tu2v5P8dba-24" value="Configuration.addMapper()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-190" y="480" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eb47AWL1J-Tu2v5P8dba-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-30" target="eb47AWL1J-Tu2v5P8dba-32">
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-30" target="eb47AWL1J-Tu2v5P8dba-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-30" value="MapperAnnotationBuilder.parse()&lt;br&gt;根据type找到mapper.xml文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="790" width="290" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eb47AWL1J-Tu2v5P8dba-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-32" target="eb47AWL1J-Tu2v5P8dba-34">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-190" y="753" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-32" value="MapperAnnotationBuilder.loadXmlResource()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-221.25" y="870" width="352.5" height="30" as="geometry" />
+          <mxGeometry x="10" y="830" width="352.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eb47AWL1J-Tu2v5P8dba-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-34" target="eb47AWL1J-Tu2v5P8dba-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="570" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-34" target="eb47AWL1J-Tu2v5P8dba-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-34" value="XMLMapperBuilder.parse()解析mapper.xml文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="920" width="290" height="60" as="geometry" />
+          <mxGeometry x="240" y="740" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
