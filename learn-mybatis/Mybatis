@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T12:56:29.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="tcW7I9UWoS1N6sRDFhKd" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T12:56:44.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="KEEgRBKrz7ADAfQ1kxPp" version="18.0.4" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="2010" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,11 @@
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;dashed=1;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-6" target="eb47AWL1J-Tu2v5P8dba-48">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-50" value="一级缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;" vertex="1" connectable="0" parent="eb47AWL1J-Tu2v5P8dba-49">
+          <mxGeometry x="-0.1122" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-6" value="XmlMapperBuilder.parse()&lt;br&gt;解析mapper.xml配置文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="260" width="290" height="60" as="geometry" />
