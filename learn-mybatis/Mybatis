@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T11:45:06.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="8hrMp_ujMY-jdxdfxD0G" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T11:46:56.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="juVqTXJbgj9IbNoYke8Y" version="18.0.4" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="1773" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="eb47AWL1J-Tu2v5P8dba-10" value="XMLStatementBuilder&lt;br&gt;.parseStatementNode()解析DML标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="370" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eb47AWL1J-Tu2v5P8dba-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-11" target="eb47AWL1J-Tu2v5P8dba-14">
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-11" target="eb47AWL1J-Tu2v5P8dba-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-11" value="生成MappedStatement对象&lt;br&gt;statementId ---&amp;gt; SqlSource" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -52,14 +52,17 @@
         <mxCell id="eb47AWL1J-Tu2v5P8dba-14" value="注册MapperRegister" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="610" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eb47AWL1J-Tu2v5P8dba-16" value="Configuration.addMapper()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="290" y="560" width="195" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eb47AWL1J-Tu2v5P8dba-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-16" target="eb47AWL1J-Tu2v5P8dba-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="387.5" y="590" as="sourcePoint" />
+            <mxPoint x="387.5" y="590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-18" value="生成MapperProxyFactory代理工厂对象&lt;br&gt;knownMappers.put(type, new MapperProxyFactory&amp;lt;&amp;gt;(type))" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="710" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-20" target="eb47AWL1J-Tu2v5P8dba-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-20" value="XmlConfigBuilder.parse()&lt;br&gt;解析mybatis.xml配置文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-230" y="140" width="290" height="60" as="geometry" />
@@ -69,6 +72,12 @@
         </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-23" value="&amp;lt;package name = &quot;&quot; /&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="64" y="170" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-24" target="eb47AWL1J-Tu2v5P8dba-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-24" value="Configuration.addMapper()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="480" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
