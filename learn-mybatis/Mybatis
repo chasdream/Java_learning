@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T11:32:34.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="PpGLnRzNrDAdjX9w5aHB" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T11:42:25.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="oNkftnyQn13A7nzMMZsl" version="18.0.4" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,8 +37,23 @@
         <mxCell id="eb47AWL1J-Tu2v5P8dba-10" value="XMLStatementBuilder&lt;br&gt;.parseStatementNode()解析DML标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="370" width="290" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-11" target="eb47AWL1J-Tu2v5P8dba-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-11" value="生成MappedStatement对象&lt;br&gt;statementId ---&amp;gt; SqlSource" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="480" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-14" value="注册MapperRegister" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="610" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-16" value="Configuration.addMapper()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="560" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-16" target="eb47AWL1J-Tu2v5P8dba-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-18" value="生成MapperProxyFactory代理工厂对象&lt;br&gt;knownMappers.put(type, new MapperProxyFactory&amp;lt;&amp;gt;(type))" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
