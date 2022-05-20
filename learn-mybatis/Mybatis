@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T11:30:11.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="T6chM4C1ItU9b-oln9a0" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T11:31:33.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Jzzg8SmzWR9W7Eg9-zlj" version="18.0.4" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="eb47AWL1J-Tu2v5P8dba-3" value="XmlConfigBuilder.parse()&lt;br&gt;解析mybatis.xml配置文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="140" width="290" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-12" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-6" target="eb47AWL1J-Tu2v5P8dba-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eb47AWL1J-Tu2v5P8dba-6" value="XmlMapperBuilder.parse()&lt;br&gt;解析mapper.xml配置文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="260" width="290" height="60" as="geometry" />
         </mxCell>
@@ -28,8 +31,14 @@
             <mxPoint x="385" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eb47AWL1J-Tu2v5P8dba-10" value="XMLStatementBuilder&lt;br&gt;.parseStatementNode()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="eb47AWL1J-Tu2v5P8dba-10" target="eb47AWL1J-Tu2v5P8dba-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-10" value="XMLStatementBuilder&lt;br&gt;.parseStatementNode()解析DML标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="370" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eb47AWL1J-Tu2v5P8dba-11" value="生成MappedStatement对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
