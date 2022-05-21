@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T10:58:26.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="OLjNds1g-lLtzlBm65qa" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T11:00:11.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="XKGjsJvRtFPx-Yoi2uKx" version="18.0.8" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="1773" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,11 +241,32 @@
         <mxCell id="H241BLlyoQLvTy_x0v8N-31" value="构建StaticSqlSource对象实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="558" y="1440" width="250" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-33" target="H241BLlyoQLvTy_x0v8N-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-33" value="SqlSessionFactory.openSession()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="180" y="1660" width="310" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-34" target="H241BLlyoQLvTy_x0v8N-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-34" value="从Configuration获取环境信息Enviroment对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1750" width="310" height="40" as="geometry" />
+          <mxGeometry x="180" y="1734" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-36" target="H241BLlyoQLvTy_x0v8N-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-36" value="创建事务工厂对象，并创建一个事务对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1809" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-38" target="H241BLlyoQLvTy_x0v8N-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-38" value="创建Executor执行器对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1880" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-40" value="创建DefalutSqlSession对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1950" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
