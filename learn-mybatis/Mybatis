@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T10:04:21.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="RITfFdMh98VcPH1qSwQi" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T10:05:23.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="E3d9G-twzSDpKIxPStqi" version="18.0.8" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="1773" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,9 +206,17 @@
             <mxGeometry x="535" y="1050" width="292.5" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-22" target="H241BLlyoQLvTy_x0v8N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="构建RawSqlSource对象实例" id="H241BLlyoQLvTy_x0v8N-22">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
             <mxGeometry x="536" y="1120" width="292.5" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="构建SqlSourceBuilder对象实例&lt;br&gt;SqlSourceBuilder.parser()" id="H241BLlyoQLvTy_x0v8N-24">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+            <mxGeometry x="536" y="1190" width="292.5" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
