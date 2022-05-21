@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T11:06:57.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="_MRPAaPXsUXSBTyOaXW7" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T14:41:01.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="2xjXgxAxUnSaZ55gPj-E" version="18.0.8" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="1773" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,6 +279,33 @@
         </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-47" value="&lt;h3 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;ReuseExecutor&lt;/span&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="519" y="1967" width="151" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-48" target="H241BLlyoQLvTy_x0v8N-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-48" value="sqlSession.getMapper(TMapper.class)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2090" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-49" target="H241BLlyoQLvTy_x0v8N-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-49" value="configuration.getMapper(TMapper.class, sqlSession)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2180" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-52" target="H241BLlyoQLvTy_x0v8N-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-52" value="通过MapperRegistry获取MapperProxyFactory对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="175" y="2260" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-54" target="H241BLlyoQLvTy_x0v8N-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-54" value="实例化MapperProxy对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="175" y="2341" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-56" value="动态代理实例化Mapper接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="175" y="2410" width="340" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
