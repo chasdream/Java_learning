@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T09:51:21.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="bBJlIGMZR2kphuDLklvq" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T09:52:15.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="9NDBExe3j0BDnaYsov-u" version="18.0.8" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="1773" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,11 +123,17 @@
         <mxCell id="H241BLlyoQLvTy_x0v8N-1" value="XmlLanguageDriver.createSqlSource()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="90" y="950" width="310" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-2" target="H241BLlyoQLvTy_x0v8N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-2" value="XMLScriptBuilder#parseScriptNode()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="117.5" y="1050" width="255" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-4" value="构建XMLScriptBuilder对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="155" y="1010" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-5" value="XMLScriptBuilder#parseDynamicTags()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="98.75" y="1120" width="292.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
