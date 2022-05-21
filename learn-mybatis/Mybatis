@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T10:12:03.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="81RZuDuUZ8zjhmdS5IaQ" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T10:58:26.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="OLjNds1g-lLtzlBm65qa" version="18.0.8" type="github">
   <diagram id="z0_8tov2kihCMsiU8-R9" name="Page-1">
     <mxGraphModel dx="1773" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-5" value="XMLScriptBuilder#parseDynamicTags()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="98.75" y="1120" width="292.5" height="40" as="geometry" />
+          <mxGeometry x="98.75" y="1110" width="292.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-7" target="H241BLlyoQLvTy_x0v8N-9">
           <mxGeometry relative="1" as="geometry" />
@@ -148,7 +148,7 @@
         </mxCell>
         <UserObject label="TextSqlNode#isDynamic()" id="H241BLlyoQLvTy_x0v8N-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="98.75" y="1190" width="292.5" height="40" as="geometry" />
+            <mxGeometry x="98.75" y="1170" width="292.5" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="H241BLlyoQLvTy_x0v8N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-9" target="H241BLlyoQLvTy_x0v8N-12">
@@ -156,7 +156,7 @@
         </mxCell>
         <UserObject label="GenericTokenParser#parse()解析sql参数" id="H241BLlyoQLvTy_x0v8N-9">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="98.75" y="1280" width="292.5" height="40" as="geometry" />
+            <mxGeometry x="98.75" y="1256" width="292.5" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="H241BLlyoQLvTy_x0v8N-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-12" target="H241BLlyoQLvTy_x0v8N-14">
@@ -171,8 +171,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="1190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="344" y="1380" />
-              <mxPoint x="470" y="1380" />
+              <mxPoint x="470" y="1349" />
               <mxPoint x="470" y="1070" />
             </Array>
           </mxGeometry>
@@ -183,19 +182,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-12" value="sql语句参数是否匹配${}" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1350" width="210" height="60" as="geometry" />
+          <mxGeometry x="140" y="1318" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-14" target="H241BLlyoQLvTy_x0v8N-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="TextSqlNode.DynamicCheckerTokenParser#handleToken()&lt;br&gt;将isDynamic = true" id="H241BLlyoQLvTy_x0v8N-14">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="44.38" y="1450" width="401.25" height="40" as="geometry" />
+            <mxGeometry x="44.38" y="1417" width="401.25" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="构建DynamicSqlSource对象实例" id="H241BLlyoQLvTy_x0v8N-17">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-            <mxGeometry x="40" y="1530" width="410" height="40" as="geometry" />
+            <mxGeometry x="40" y="1486" width="410" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="H241BLlyoQLvTy_x0v8N-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="H241BLlyoQLvTy_x0v8N-19" target="H241BLlyoQLvTy_x0v8N-22">
@@ -241,6 +240,12 @@
         </mxCell>
         <mxCell id="H241BLlyoQLvTy_x0v8N-31" value="构建StaticSqlSource对象实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="558" y="1440" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-33" value="SqlSessionFactory.openSession()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1660" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H241BLlyoQLvTy_x0v8N-34" value="从Configuration获取环境信息Enviroment对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1750" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
