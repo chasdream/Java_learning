@@ -53,6 +53,8 @@ public class MybatisXmlTest {
 
         // 第六步：业务逻辑处理
         System.out.println(tBeans);
+
+        session.close();
     }
 
 }

@@ -39,7 +39,7 @@ public class ClassPathXmlApplicationContext {
      * @return
      * @throws IllegalAccessException
      */
-    public Object getBean(String id) throws IllegalAccessException {
+    public Object getBean(String id) throws Exception {
         // id为空，抛出异常
         if (id == null) {
             throw new IllegalAccessException("id is not null");
@@ -48,8 +48,10 @@ public class ClassPathXmlApplicationContext {
         if (singletObjects.containsKey(id)) {
             return singletObjects.get(id);
         }
-        // 否则进行，抛出未找到bean（注：此处可以进行进行bean的实例化）
-        return null;
+        // 如果缓存中不存在，则重写解析XML配置文件
+        Map<String, String> elements = Dom4jUtils.readerXml(xmlPath);
+        if(elements.get(id) == null) throw new Exception("配置文件中未找到对应的ID");
+        return elements.get(id);
     }
 
     /**

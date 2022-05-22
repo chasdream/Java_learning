@@ -17,7 +17,8 @@ import org.junit.Test;
 public class Dom4jTest {
 
     @Test
-    public void testGetBean() throws IllegalAccessException {
+    public void testGetBean() throws Exception {
+        // 自定义一个ApplicationContext
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application.xml");
         context.refresh();
 

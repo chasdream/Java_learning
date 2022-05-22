@@ -19,7 +19,7 @@
     </update>
 
     <select id="selectById" resultType="TEntity" useCache="false">
-        select id, c from T where id = #{id}
+        select id, c from T where id = ${id}
     </select>
 </mapper>
 
